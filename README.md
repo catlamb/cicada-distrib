@@ -56,7 +56,7 @@ Example of symbology process: ![symbology process](data/symbologyprocess.png)
 After setting the scale to 1:20000000, print layout was utilized. A North arrow, metadata, title, scale, legend, and the map itself were all added. 
 Example of print layout items: ![print layout process](data/printlayout.png)
 
-The final product was then exported in three sizes, 600px, 1200px, and 8000px.
+The final product was then exported in three sizes, 600dpi, 1200dpi, and 8000dpi.
 
 ### Map summary
 

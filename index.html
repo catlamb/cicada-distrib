@@ -24,7 +24,7 @@
 			margin: 0;
 			padding: 0;
 			background: #ffffff;
-			font-family: 'Open Sans', sans-serif;
+			font-family: Georgia, serif;
 			font-weight: 400;
 			color: #3d3d3d;
 		}
@@ -37,11 +37,11 @@
 
 		h1 {
 			font-family: 'Open Sans', sans-serif;
-			font-weight: 300;
+			font-weight: 400;
 			/* The em unit. 2.5x the current size */
 			font-size: 2.5em;
-			letter-spacing: .04em;
-			text-transform: uppercase;
+			letter-spacing: .02em;
+			text-transform: none;
 		}
 
 		h2 {
@@ -98,25 +98,38 @@
 				<a href="map.html">Link to high resolution version</a> 
 			<!-- This is an HTML comment. Find the comments below and follow the instructions. -->
 
-		<h1>Periodical Cicada Distribution Map</h1>
+		<h1>Periodical Cicada Brood Distribution Map</h1>
 
 		<!-- Add your information below -->
 		<h2>Authored by: Cat Lamb</h2>
-		<p>Describe how this map was made, data sources, and other important metadata. Include link(s) to the data
-			source: <a href="https://nationalmap.gov/small_scale/atlasftp.html" target="blank">The U.S. Forest Service</a>. </p>
+		<p>
+			This map was prepared in 2026 using QGIS 3.44.8 Data from the U.S. Forest Service depicting county 
+			boundaries and cicada brood distributions. These layers were joined and styled to reflect the number
+			of broods in each county. The map was then exported as a JPEG and optimized for web use in Visual Studio Code. 
+		<p>
+			The goal of this project was to create a straightfoward static map that shows the distribution and overlap of periodical cicada broods across the United States.
+			A cicada "brood" refers to a population of periodical cicadas that emerges simultaneously in a similar area, generally every 13 or 17 years. 
+			It is useful for both the general public and academics to understand where these insects emerge and areas that may encounter them more frequently. Still, it is
+			important to note that the more saturated areas of the map do not necessarily reflect areas of higher cicada density; simply areas where multiple broods have been observed.
+		<p>
 
+			Both data sources utilized in this project were accessed via the U.S. Forest Service. The county data was from the Forest Inventory and Analysis (FIA) program
+			 <a href="https://data.fs.usda.gov/geodata/edw/datasets.php?dsetCategory=boundaries" target="blank">(FIA Landcover County Estimates 2015)</a>, which collects
+			data on forest conditions across the United States. 
+			Their county boundaries (which are utilized in this project) are derived from the U.S. Census.
+			The cicada brood data  <a href="https://data-usfs.hub.arcgis.com/datasets/periodical-cicada-broods-feature-layer/about" target="blank">(Periodical Cicada Broods)</a>
+			was collected through a combination of multiple sources compiled into a dataset for a publication
+			by Koenig, Ries, Olsen, & Liebhold (2011) which was then made into a feature layer for public use. More information on these datasets is available
+			at the GitHub repository for this project below. 
+		
+			
 		<ul>
 			<!-- Change the following contacts to your personal brand, whatever you want it to be! -->
 			 <li>See more details about this project on GitHub: <a href="https://github.com/catlamb/cicada-distrib">Cicada Distribution</a></li>
 			<li>See all my projects on GitHub: <a href="https://github.com/catlamb">Cat Lamb</a></li>
-
+			<li><strong>Contact:</strong> <a href="mailto:c.lamb@uky.edu">c.lamb@uky.edu</a></li>
 		</ul>
 		<hr>
-		<a href="https://uky-gis.github.io"><img width="20%"
-				src="https://uky-gis.github.io/graphics/logo-color-400px.png"
-				alt="University of Kentucky Geography"></a>
-		<a href="https://newmapsplus.as.uky.edu"><img width="15%"
-				src="https://newmapsplus.as.uky.edu/sites/default/files/NMP%20Logo.png" alt="New Maps Plus"></a>
 	</section>
 </body>
 
