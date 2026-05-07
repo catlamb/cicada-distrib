@@ -35,7 +35,7 @@ The purpose of this map is to depict the distrubution of periodical cicadas (Gen
 ### Mapmaking Process
 The map was made following the process described below. 
 
-1. **Set CRS**
+1. **Set CRS:**
 The first step was to set the Project Coordinate Reference System (CRS). In this case, EPSG 3395 was used. 
 
 2. **Import data:**
@@ -54,7 +54,8 @@ Example of symbology process: ![symbology process](data/symbologyprocess.png)
 
 6. **Print Layout:**
 After setting the scale to 1:20000000, print layout was utilized. A North arrow, metadata, title, scale, legend, and the map itself were all added. 
-Example of print layout process: ![print layout process](data/printlayout.png)
+Example of print layout items: ![print layout process](data/printlayout.png)
+
 The final product was then exported in three sizes, 600px, 1200px, and 8000px.
 
 ### Map summary
@@ -63,10 +64,8 @@ This static map depicts the distribution of periodical cicadas (Genus *Magicicad
 
 This map is useful as a simple and quick understanding of overall distribution along with hotspots where multiple cicada broods overlap, though it is important to note that these hotspots are *not* indicative of quantity of cicadas, rather, quantity of distinct cicada broods. These overlapping broods seem to primarily occur south of Michigan Lake and along the Appalachian Mountains.
 
-A similar static map can be recreated using the process and data sources (i.e., importing both datasets, joining the brood geodatabase with the county layer, editing symbology to categorize cicada broods) described above. 
+A similar static map can be recreated by importing both datasets, joining the brood geodatabase with the county layer, and editing symbology to categorize cicada broods, as described above. 
 
 ## Final Project Link
-
-Here you are linking from the README.md to the index.html.
 
 Please view the [final map online](https://catlamb.github.io/cicada-distrib/)
