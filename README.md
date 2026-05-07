@@ -3,8 +3,6 @@
 
 ## Project Contents
 
-If you wanted to include a table of contents to sections, and then links to each section.
-
 - [Data Source](#data-source)
 - [Project Background](#project-background)
 - [Map summary](#map-summary)
