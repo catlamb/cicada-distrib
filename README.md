@@ -15,7 +15,9 @@ If you wanted to include a table of contents to sections, and then links to each
 
 ### Data Source
 
-[Link to data source](https://...)
+[Link to county boundaries data source (FIA Landcover County Estimates 2015)](https://data.fs.usda.gov/geodata/edw/datasets.php?dsetCategory=boundaries)
+
+[Link to cicada broods data source (Periodical Cicada Broods)](https://data-usfs.hub.arcgis.com/datasets/periodical-cicada-broods-feature-layer/about)
 
 * Initial Data projection: 
 * Final Map projection:
@@ -25,8 +27,6 @@ If you wanted to include a table of contents to sections, and then links to each
 If you are interested in [other Markdown formatting options](https://www.markdownguide.org/basic-syntax/)
 
 ### Purpose
-
-Please write about the map purpose using complete sentences. 
 
 The purpose of this map is to depict the distrubution of periodical cicadas (Genus Magicicada) in the United States. The goal was for this map to be simple to interpret for those without extensive knowledge of the insect, yet still offer information on locations where multiple cicada broods overlap. 
 
