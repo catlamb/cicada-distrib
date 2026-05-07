@@ -39,7 +39,7 @@ The map was made following the process described below.
 The first step was to set the Project Coordinate Reference System (CRS). In this case, EPSG 3395 was used. 
 
 2. **Import data:**
-Specifically, county data was imported via a shapefile format and the periodical cicada brood data from an ESRI geodatabase format. The latter is not made visible on the map without further action. 
+County data was imported via a shapefile format and the periodical cicada brood data from an ESRI geodatabase format. The latter is not made visible on the map without further action. 
 
 3. **Join Layers:**
 The geodatabase layer depicting broods was joined to the county layers as they had county codes in common used by the U.S. Census. This process is depicted below. 
@@ -49,7 +49,7 @@ Example of joining process: ![join image](data/joinprocess.png)
 The joined layer was then exported as a geojson so that the brood data could be visualized separately. 
 
 5. **Edit Symbology:**
-Both layers (joined geojson and original county shapefile) were edited through symbology within the properties option. For the joined layer, the categorized symbology was chosen to depict a change in color based on the number of overlapping cicada broods in the area. Fill colors, stroke color, stroke width, and other style changes were made based on preference as well as for depicting the information in a clear and pleasing manner.  
+Both layers (joined geojson and original county shapefile) were edited via symbology within the layer properties. For the joined layer, categorized symbology was chosen to depict a change in color based on the number of overlapping cicada broods in the area. Fill colors, stroke color, stroke width, and other style changes were made based on preference and a desire to depict the information in a clear and aesthetically-pleasing manner.  
 Example of symbology process: ![symbology process](data/symbologyprocess.png)
 
 6. **Print Layout:**
