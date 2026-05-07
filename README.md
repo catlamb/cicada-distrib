@@ -37,19 +37,24 @@ If you are interested in [other Markdown formatting options](https://www.markdow
 The purpose of this map is to depict the distrubution of periodical cicadas (Genus Magicicada) in the United States. The goal was for this map to be simple to interpret for those without extensive knowledge of the insect, yet still offer information on locations where multiple cicada broods overlap. This map will likely be used in future publications by Cat Lamb related to edible insect consumption, however, the license allows public use outside of this scope. 
 
 ### Mapmaking Process
+The map was made following the process described below. 
 
-Example of in process map ![symbology process](data/symbologyprocess.png)
-
-Example of in process map ![join image](data/joinprocess.png)
-
-You can describe the mapmapking process in this section, including images where it helps to describe the process.
-
-You can also use some lists, and here's some formatting ideas.
-
-1. **Example bold**
-2. *Example italics*
-3. 
-4. 
+1. **Set CRS**
+The first step was to set the Project Coordinate Reference System (CRS). In this case, EPSG 3395 was used. 
+2. **Import data**
+Specifically, county data was imported via a shapefile format and the periodical cicada brood data from an ESRI geodatabase format. The latter is not made visible on the map without further action. 
+3. **Join Layers**
+The geodatabase layer depicting broods was joined to the county layers as they had county codes in common used by the U.S. Census. This process is depicted below. 
+Example of joining process ![join image](data/joinprocess.png)
+4. **Explort Joined Layer**
+The joined layer was then exported as a geojson so that the brood data could be visualized separately. 
+5. **Edit Symbology**
+Both layers (joined geojson and original county shapefile) were edited through symbology within the properties option. For the joined layer, the categorized symbology was chosen to depict a change in color based on the number of overlapping cicada broods in the area. Fill colors, stroke color, stroke width, and other style changes were made based on preference as well as for depicting the information in a clear and pleasing manner.  
+Example of symbology process ![symbology process](data/symbologyprocess.png)
+6. **Print Layout**
+Print layout was then utilized, where a North arrow, metadata, title, scale, legend, and the map itself were all added. 
+Example of print layout process ![print layout process](data/printlayout.png)
+The final product was then exported in three sizes, 600px, 1200px, and 8000px.
 
 ### Map summary
 
