@@ -67,7 +67,7 @@ The final product was then exported in three sizes, 600px, 1200px, and 8000px.
 
 This static map depicts the distribution of periodical cicadas (Genus *Magicicada*) in the United States. Periodical cicadas emerge ever 13 or 17 years, depending on the species. The genus *Magicicada* is unique to North America. These insects are also edible, and their consumption occurs often within or near their natural distribution. 
 
-This map is useful as a simple and quick understanding of overall distribution along with hotspots where multiple broods overlap. These overlaps seem to primarily occur south of Michigan Lake and Along the Appalachian Mountains.
+This map is useful as a simple and quick understanding of overall distribution along with hotspots where multiple cicada broods overlap, though it is important to note that these hotspots are *not* indicative of quantity of cicadas, rather, quantity of distinct cicada broods. These overlapping broods seem to primarily occur south of Michigan Lake and along the Appalachian Mountains.
 
 A similar static map can be recreated using the process and data sources (i.e., importing both datasets, joining the brood geodatabase with the county layer, editing symbology to categorize cicada broods) described above. 
 
