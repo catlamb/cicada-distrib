@@ -64,7 +64,9 @@ This static map depicts the distribution of periodical cicadas (Genus *Magicicad
 
 This map is useful as a simple and quick understanding of overall distribution along with hotspots where multiple cicada broods overlap, though it is important to note that these hotspots are *not* indicative of quantity of cicadas, rather, quantity of distinct cicada broods. These overlapping broods seem to primarily occur south of Michigan Lake and along the Appalachian Mountains.
 
-A similar static map can be recreated by importing both datasets, joining the brood geodatabase with the county layer, and editing symbology to categorize cicada broods, as described above. 
+A similar static map can be recreated by importing both datasets, joining the brood geodatabase with the county layer, and editing symbology to categorize cicada broods, as described above.
+
+**Final Map Output** ![final map output](data/cicadadistrib600.jpeg)
 
 ## Final Project Link
 
